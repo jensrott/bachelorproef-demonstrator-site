@@ -1,0 +1,89 @@
+/* Login */
+.center-horizontal {
+  display: flex;
+  justify-content: center;
+  /* align-items: center;
+  flex-direction: column;
+  height: 100vh; */
+}
+
+.card {
+  border-radius: 2rem;
+  width: 450px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 8, 0.08) 0px 4px 8px 0px;
+  padding: 28px;
+}
+
+.card h1 {
+  text-align: center;
+}
+
+.login_title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.form_field {
+  width: 100%;
+}
+
+.form_field input {
+  border: 0.0625em solid #e5e5e5;
+  background-color: #f6f6f6;
+  border-radius: 3rem;
+  width: 100%;
+  color: #555555;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.form_field label {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.button_container {
+  width: 100%;
+}
+
+.button_container input {
+  border: none;
+  border-radius: 2rem;
+  width: 100%;
+  padding: 10px;
+  margin: 30px 0;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #eb8555;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.button_container p {
+  color: #555555;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button_container a {
+  color: #4ea7ae;
+  font-weight: bold;
+}
+
+.password-container {
+  position: relative;
+  display: inline-block;
+}
+
+.password-container i {
+  color: #eb8555;
+  font-weight: bold;
+  position: absolute;
+  right: 20px;
+  top: 13px;
+}
