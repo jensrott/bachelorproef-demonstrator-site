@@ -24,7 +24,7 @@ class DemonstratorDetail extends Component {
   }
   componentDidMount() {
     let id = this.props.match.params.id;
-    axios.get(`http://localhost:3000/data/${id}`).then(res => {
+    axios.get(`https://auth-rest-api.herokuapp.com/data/${id}`).then(res => {
       this.setState({
         card: res.data,
         images: res.data.images,

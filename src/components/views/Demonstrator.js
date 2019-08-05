@@ -30,7 +30,7 @@ class Demonstrator extends Component {
   }
   componentDidMount() {
     axios
-      .get("http://localhost:3000/data")
+      .get("https://auth-rest-api.herokuapp.com/data")
       .then(res => this.setState({ cards: res.data }));
   }
 
@@ -97,7 +97,7 @@ class Demonstrator extends Component {
               >
                 <a href="http://hassio.local:8123" className="control-ha">
                   <p>Verbinden met de demonstrator</p>
-                  <i class="fas fa-arrow-right" />
+                  <i className="fas fa-arrow-right" />
                 </a>
               </Tooltip>
             </div>

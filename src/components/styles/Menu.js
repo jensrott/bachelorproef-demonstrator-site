@@ -66,14 +66,14 @@ class Menu extends Component {
               </NavLink>
             </li>
             <Li>
-              <NavLink to="/about/" activeStyle={activeLinkStyle}>
+              <NavLink to="/about" activeStyle={activeLinkStyle}>
                 Over
               </NavLink>
             </Li>
             <Li>
-              <a style={{ cursor: "pointer" }} to="#">
+              <NavLink to="/demonstrator" activeStyle={activeLinkStyle}>
                 Demonstrator
-              </a>
+              </NavLink>
             </Li>
 
             {isAuthenticated === true ? (
