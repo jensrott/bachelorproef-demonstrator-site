@@ -30,7 +30,7 @@ class Demonstrator extends Component {
   }
   componentDidMount() {
     axios
-      .get("http://localhost:3000/data")
+      .get("https://auth-rest-api.herokuapp.com/data")
       .then(res => this.setState({ cards: res.data }));
   }
 

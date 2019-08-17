@@ -5,6 +5,8 @@
 This site shows information about all the components that are used in the demonstrator board.
 Pictures, explanations, videos can be found here.
 
+This site is part of my thesis.
+
 ## Authentication
 
 The site requires a login:
@@ -14,7 +16,7 @@ Password: Test123
 
 ## Try it out
 
-Site: .... netlify url comes here
+[Website](https://nervous-pike-dfb37b.netlify.com/)
 
 Install all dependencies and run the application:
 
