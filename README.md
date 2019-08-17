@@ -11,8 +11,8 @@ This site is part of my thesis.
 
 The site requires a login:
 
-Username: TestGebruiker
-Password: Test123
+Username: **TestGebruiker**  
+Password: **Test123**
 
 ## Try it out
 
