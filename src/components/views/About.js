@@ -17,13 +17,14 @@ class About extends Component {
           <div className="row mb-3">
             <p>
               Deze website geeft een overzicht van de fysische demonstrator
-              welke gebouwd is in het kader van de bachelorproef "Domotika
+              welke gebouwd is in het kader van de bachelorproef "Domotica
               starterskit voor jonge gezinnen". De verschillende onderdelen en
               functionaliteiten van de demonstrator worden beschreven naast een
               mogelijkheid om het allemaal eens zelf in real-time uit te
-              proberen (controle via Home Assistant dashboard en montitoring via
-              IP Camera). De demonstrator tracht een correct beeld te geven van
-              typische toepassingsmogelijkheden van een modern domotica systeem.
+              proberen (controle via Home Assistant dashboard en monitoring via
+              IP Camera). Deze demonstrator tracht een correct beeld te geven
+              van typische toepassingsmogelijkheden van een modern domotica
+              systeem voor jonge gezinnen.
             </p>
           </div>
         </Container>

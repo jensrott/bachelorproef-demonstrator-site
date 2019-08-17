@@ -18,7 +18,11 @@ const Title = styled.h1`
 `;
 
 const PageSubTitle = props => {
-  return <Title small={props.small}>{props.children}</Title>;
+  return (
+    <Title id={props.id} small={props.small}>
+      {props.children}
+    </Title>
+  );
 };
 
 export default PageSubTitle;

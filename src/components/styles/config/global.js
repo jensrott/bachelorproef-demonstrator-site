@@ -31,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
     color: inherit;
   }
 
-  p { line-height: 1.6; font-weight: bold; }
+  p { line-height: 1.8; font-weight: bold; }
 
   /* Added to Fix Footer to bottom of viewport */
   html, body {

@@ -30,7 +30,7 @@ class Demonstrator extends Component {
   }
   componentDidMount() {
     axios
-      .get("https://auth-rest-api.herokuapp.com/data")
+      .get("http://localhost:3000/data")
       .then(res => this.setState({ cards: res.data }));
   }
 
@@ -80,15 +80,19 @@ class Demonstrator extends Component {
               <PageSubTitle>Demo</PageSubTitle>
               <div className="center-horizontal">
                 <ReactPlayer
+                  width="1700px"
+                  height="500px"
                   controls={true}
-                  url={"https://www.youtube.com/watch?v=dTW2MxfqVLI"}
+                  url={"https://www.youtube.com/watch?v=1M0qa4KtY_M"}
                 />
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-sm-12">
-              <PageSubTitle>Zelf eens uitproberen ?</PageSubTitle>
+              <div style={{ marginBottom: "2rem" }}>
+                <PageSubTitle>Zelf eens uitproberen ?</PageSubTitle>
+              </div>
               <Tooltip
                 theme="domotica"
                 title="Ga naar Home Assistant"
@@ -106,10 +110,13 @@ class Demonstrator extends Component {
           <div className="row">
             <div className="col-sm-12">
               <Element name="scroll-to-element">
-                <PageSubTitle>Onderdelen</PageSubTitle>
+                <div>
+                  <PageSubTitle id="onderdelen">Onderdelen</PageSubTitle>
+                </div>
               </Element>
             </div>
           </div>
+
           <CardList>
             {cards.map((card, index) => (
               <DemonstratorCard

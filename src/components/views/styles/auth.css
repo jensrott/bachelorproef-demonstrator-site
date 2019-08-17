@@ -2,9 +2,6 @@
 .center-horizontal {
   display: flex;
   justify-content: center;
-  /* align-items: center;
-  flex-direction: column;
-  height: 100vh; */
 }
 
 .card {
@@ -62,6 +59,15 @@
   cursor: pointer;
   background-color: #eb8555;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: transform 150ms ease-in-out;
+}
+
+.button_container input:hover {
+  transform: scale(1.035);
+}
+
+.button_container input:active {
+  transform: scale(0.95);
 }
 
 .button_container p {
