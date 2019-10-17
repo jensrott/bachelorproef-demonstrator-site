@@ -27,3 +27,5 @@ npm run start
 
 The site uses a rest api which holds the authentication and consumable data.
 Which can be found [here](https://github.com/jensrott/bachelorproef-auth-rest-api).
+
+The configuration files for my demonstrator can be found [here](https://github.com/jensrott/home-assistant-configuration).
