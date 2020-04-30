@@ -20,7 +20,7 @@ class Register extends Component {
       password: "",
       errors: "",
       hidden: true,
-      eyeClassName: "far fa-eye"
+      eyeClassName: "far fa-eye-slash"
     };
     this.OnChange = this.OnChange.bind(this);
     this.OnSubmit = this.OnSubmit.bind(this);
@@ -59,9 +59,9 @@ class Register extends Component {
   toggleShow() {
     this.setState({ hidden: !this.state.hidden });
     if (this.state.hidden) {
-      this.setState({ eyeClassName: "fa fa-eye-slash" });
-    } else {
       this.setState({ eyeClassName: "far fa-eye" });
+    } else {
+      this.setState({ eyeClassName: "fa fa-eye-slash" });
     }
   }
 
